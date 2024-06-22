@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-subtitle: #e1624f;
+    --color-h1: #1b1b1b;
+    --color-legend: #333;
+    --color-história: #0C51A7;
+    --color-casais: #591B98;
+    --color-familias: #E5245E;
+    --color-orçamento: #E95E10;
+    --border: #d9d9d9;
+}
+
+*,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+}
+
+header {
+    margin-bottom: 10.4rem;
+
+    border-bottom: .5px solid var(--border);
+    padding-bottom: 4rem;
+    max-width: 112rem;
+    margin-inline: auto;
+}
+
+
+.container {
+    max-width: 112rem;
+    margin: 8.8rem auto 4.8rem;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.9rem;
+
+    margin-bottom: 4rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--color-subtitle);
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+}
+
+figure img {
+    margin-bottom: 2.4rem;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    color: var(--color-legend);
+}
+
+main {
+    border-bottom: .5px solid var(--border);
+    padding-bottom: 4rem;
+    max-width: 112rem;
+    margin-inline: auto;
+}
+
+section h1 {
+    margin-bottom: .8rem;
+}
+
+h1 + p {
+    margin-bottom: 6.4rem;
+}
+
+ol {
+    padding-left: 3px;
+}
+
+section ol li p {
+    margin-bottom: 3rem;
+}
+
+.local {
+    list-style-position: inside;
+}
+
+section ol .local {
+
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 5.8rem;
+
+    
+    margin-top: 2rem;
+}
+
+.local img {
+    margin-top: 4.8rem;
+}
+
+h3 {
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.history {
+    color: var(--color-história);
+    font-weight: bold;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.familia {
+    color: var(--color-familias);
+    font-weight: bold;
+}
+
+.casais {
+    color: var(--color-casais);
+    font-weight: bold;
+}
+
+.orçamento {
+    color: var(--color-orçamento);
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.rocketseat {
+    margin-top: 6.5rem;
+}
